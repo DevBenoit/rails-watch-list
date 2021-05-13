@@ -1,0 +1,11 @@
+<div class="container p-5">
+  <h1>Lists</h1>
+  <div class="row">
+    <ul>
+      <% @lists.each do |list| %>
+        <li><%= list.name %></li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+
